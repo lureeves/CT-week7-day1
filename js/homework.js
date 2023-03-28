@@ -12,15 +12,14 @@ let outArray = ''
 
 for (let num of exerciseOneArr){
     if ((num % 3 == 0) && (num % 5 == 0)){
-        outArray += 'FizzBuzz'
+        console.log('FizzBuzz')
     } else if (num % 5 == 0){
-        outArray += 'Buzz'
+        console.log('Buzz')
     } else if (num % 3 == 0){
-        outArray += 'Fizz'
+        console.log('Fizz')
     } else {
-        outArray += num
+        console.log(num)
     }
-    outArray += ' '
 }
 
 console.log(outArray) // Output - 1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz 11 Fizz 13 14 FizzBuzz 
